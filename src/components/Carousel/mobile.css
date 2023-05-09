@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    .info h2 {
+        color: var(--white-secondary);
+        font-size: 1.7rem;
+        padding: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .btn-carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 0.7rem;
+        background: transparent;
+        color: var(--white-secondary);
+        border: 3px solid var(--white-secondary);
+        border-radius: 0.2rem;
+        font-size: 1.1rem;
+    }
+
+    .btn-carousel:hover {
+        cursor: pointer;
+    }
+}
